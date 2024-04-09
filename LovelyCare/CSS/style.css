@@ -18,8 +18,13 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, 
-.h1, .h2, .h3, .h4, .h5, .h6{
+.h1, .h2, .h3, .h4,.h5,.h6{
     font-weight: 600;
+}
+#slogan{
+    font-weight: 600;
+    font-size: 22px;
+    font-style:italic;
 }
 
 a{
@@ -65,13 +70,21 @@ img{
     font-size: 19px;   
 }
 
-
-
-
-
+.main-btn{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    gap:16px;
+    }
 
 
 /* Hero */
+#hero{
+    background-color: transparent;
+    background-image: url(../Images/LovelyCare.jpg) ;
+    background-position: center;
+    background-size: cover;    
+}
 
 
 
