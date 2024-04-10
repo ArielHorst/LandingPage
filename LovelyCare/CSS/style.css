@@ -41,10 +41,24 @@ img{
     height: auto;
 }
 
+/* Section */
 .section-padding{
    padding-top: 140px; 
    padding-bottom: 140px;
 }
+
+.section-title{
+    margin-bottom: 40px;
+    color: var(--c-light-red);
+}
+
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-light-red);
+    margin: 16px auto 24px auto;
+}
+
 
 
 /* Navbar */
@@ -90,5 +104,24 @@ img{
     color: rgb(182, 69, 69); 
 }
 
+/* About */
+ .about{
+    color: var(--c-body);
+    font-size: 22px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
+ .about-line{
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+ }
 
+ .about-paragraph{
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 50px;
+ }
