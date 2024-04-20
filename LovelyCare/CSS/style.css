@@ -42,8 +42,8 @@ img{
 
 /* Section */
 .section-padding{
-   padding-top: 140px; 
-   padding-bottom: 140px;
+   padding-top: 100px; 
+   padding-bottom: 100px;
 }
 
 .section-title{
@@ -144,6 +144,11 @@ img{
 
  /* Services */
 
+#services{
+    padding-bottom: 160px;
+}
+
+
 .service {
     position: relative;
     overflow: hidden;
@@ -184,7 +189,11 @@ img{
 
  /* Counter */
  #counter {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/counter.jpg);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to right,rgba(124, 25, 21, 0.4), rgba(190, 86, 86, 0.1)), url(../Images/counter_image.jpg);
+    background-position:50% 15%;
+    background-size:cover;
+    height: 700px;
+    color: aliceblue;
 }
+
+ /* Review */
