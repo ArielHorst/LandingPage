@@ -59,7 +59,19 @@ img{
     margin: 16px auto 24px auto;
 }
 
+/* IconBox */
 
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,rgba(211, 101, 96, 0.2), rgba(223, 198, 198, 0.1));
+    color: var(--c-body);
+    font-size: 40px;
+    flex:none;
+}
 
 /* Navbar */
 
@@ -123,5 +135,15 @@ img{
  .about-paragraph{
     font-size: 22px;
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 15px;
  }
+
+.about-list{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+ /* Services */
+.services-paragraph{
+    font-size: 18px;
+}
