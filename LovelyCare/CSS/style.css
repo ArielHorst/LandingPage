@@ -35,12 +35,18 @@ a{
 a:hover{
     color: var(--c-brand-light);
 }
+
 img{
     max-width: 100%;
     height: auto;
 }
 
+p{
+    text-align: justify;
+}
+
 /* Section */
+
 .section-padding{
    padding-top: 100px; 
    padding-bottom: 100px;
@@ -140,6 +146,10 @@ img{
 .about-list{
     font-size: 20px;
     margin-top: 20px;
+ }
+
+ .about-image{
+    margin-bottom: 30px;
  }
 
  /* Services */
