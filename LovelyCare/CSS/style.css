@@ -216,12 +216,12 @@ img{
     transform: rotate(45deg);
 }
 
-/* Contacts */
+/* Contact */
 
 #contact {
     position: relative;
     z-index: 2;
-    background-color: rgb(214, 60, 60);
+    background-color:var();
 }
 
 #contact::after {
@@ -244,4 +244,60 @@ img{
 #contact .form-control:focus {
     box-shadow: none;
     border-color: var(--c-brand);
+}
+
+/* Footer */
+
+footer {
+    padding-top: 120px;
+    background-color: rgb(172, 48, 48);
+}
+
+.footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(202, 194, 194, 0.1);
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-text{
+    color:rgba(255, 255, 255, 0.815);
+}
+
+
+footer li,
+footer p,
+footer a {
+    color: rgba(255,255,255,0.7);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: var(--c--gray);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color:rgb(185, 177, 160);
+    color: white;
 }
